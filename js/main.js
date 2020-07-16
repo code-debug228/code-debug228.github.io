@@ -1,6 +1,3 @@
-$(document).ready(function () {
-    $('.header').height($(window).height());
-})
 
 (function(){
 var canvas = document.createElement('canvas'),
@@ -13,11 +10,11 @@ properties = {
     particleColor: 'rgba(255, 40, 40, 1)',
     particleRadius: 3,
     particleCount: 60,
-    particleMaxVelocity: 10,
+    particleMaxVelocity: 8,
     lineLength: 150,
     particleLife: 10
 };
-document.querySelector('header.header').appendChild(canvas)
+document.querySelector('div#canvas').appendChild(canvas)
 
 
 class Particle{
