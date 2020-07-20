@@ -122,7 +122,8 @@ p {
 /* Intro */
 
 .intro {
-    background: #31344e url('images/intro-bg.jpg') no-repeat center / cover;
+    background: #31344e url('images/intro-bg.jpg') no-repeat center;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
