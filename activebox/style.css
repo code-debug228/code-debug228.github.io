@@ -465,4 +465,8 @@ p {
     .nav {
         display: none;
     }
+    
+    .intro__title {
+        font-size: 40px;
+    }
 }
