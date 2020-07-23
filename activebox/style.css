@@ -459,3 +459,10 @@ p {
 .copyright__text span {
     color: #fff;
 }
+
+/*Media*/
+@media (max-width: 991px) {
+    .nav {
+        display: none;
+    }
+}
